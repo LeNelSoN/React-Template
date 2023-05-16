@@ -1,0 +1,12 @@
+@import './shared/scss/toolkit.scss';
+
+@media screen and (min-width: $mobile) {
+    html{
+        opacity: 35%;
+    }
+}
+@media screen and (min-width: $tablet) {
+    html{
+        opacity: 15%;
+    }
+}
